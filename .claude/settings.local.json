@@ -17,7 +17,11 @@
       "Bash(echo \"email: $\\(git config --global user.email || echo UNSET\\)\")",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -q -m 'Initial commit: personalize portfolio for Pramod Ambati *)"
+      "Bash(git commit -q -m 'Initial commit: personalize portfolio for Pramod Ambati *)",
+      "Bash(git commit *)",
+      "Bash(gh repo *)",
+      "PowerShell(Get-Process *)",
+      "Bash(curl -s http://localhost:3000/projects -o /tmp/proj.html -w \"HTTP %{http_code}\\\\n\")"
     ]
   }
 }

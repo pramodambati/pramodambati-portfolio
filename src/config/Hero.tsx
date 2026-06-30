@@ -24,9 +24,12 @@
  * That's it! Your portfolio will automatically update with your information.
  */
 import Github from '@/components/svgs/Github';
+import HashNode from '@/components/svgs/HashNode';
+import LeetCode from '@/components/svgs/LeetCode';
 import LinkedIn from '@/components/svgs/LinkedIn';
 import Mail from '@/components/svgs/Mail';
 import X from '@/components/svgs/X';
+import YouTube from '@/components/svgs/YouTube';
 import Bun from '@/components/technologies/Bun';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
@@ -112,23 +115,38 @@ export const heroConfig = {
 // Social Links Configuration
 export const socialLinks = [
   {
-    name: 'X',
-    href: 'https://x.com/your-handle',
-    icon: <X />,
-  },
-  {
-    name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/your-handle/',
-    icon: <LinkedIn />,
-  },
-  {
     name: 'Github',
     href: 'https://github.com/pramodambati',
     icon: <Github />,
   },
   {
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/pramodambati/',
+    icon: <LinkedIn />,
+  },
+  {
+    name: 'X',
+    href: 'https://x.com/pramodambatii',
+    icon: <X />,
+  },
+  {
+    name: 'YouTube',
+    href: 'https://www.youtube.com/@pramodambati',
+    icon: <YouTube />,
+  },
+  {
+    name: 'HashNode',
+    href: 'https://hashnode.com/@pramodambatii',
+    icon: <HashNode />,
+  },
+  {
+    name: 'LeetCode',
+    href: 'https://leetcode.com/u/pramodambati1/',
+    icon: <LeetCode />,
+  },
+  {
     name: 'Email',
-    href: 'mailto:your-email@example.com',
+    href: 'mailto:pramodambati1@gmail.com',
     icon: <Mail />,
   },
 ];

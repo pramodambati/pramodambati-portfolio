@@ -18,10 +18,10 @@ export const siteConfig = {
   ogImage: '/meta/opengraph-image.png',
   author: {
     name: about.name,
-    twitter: '@your-handle',
+    twitter: '@pramodambatii',
     github: 'pramodambati',
-    linkedin: 'your-handle',
-    email: 'your-email@example.com',
+    linkedin: 'pramodambati',
+    email: 'pramodambati1@gmail.com',
   },
   keywords: [
     'portfolio',
